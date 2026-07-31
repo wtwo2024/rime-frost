@@ -1,0 +1,14 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.17.4
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Fri Jul 31 12:55:17 2026"
+  rime_version: 1.13.1
+patch:
+  "style/color_scheme": google
+  "style/horizontal": true
+  # 聚焦开始菜单搜索框时，自动切换为英文状态
+  "app_options/SearchHost.exe/ascii_mode": true   # Windows 11 开始菜单搜索
+  "app_options/SearchUI.exe/ascii_mode": true     # Windows 10 开始菜单搜索（兼容）
+  # 聚焦 Everything 搜索栏时，自动切换为英文状态
+  "app_options/Everything.exe/ascii_mode": true   # Everything 搜索工具

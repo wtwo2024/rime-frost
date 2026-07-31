@@ -1,0 +1,5 @@
+# 主用自然码双拼，另挂全拼（白霜拼音）供他人临时切换
+patch:
+  schema_list:
+    - {schema: rime_frost_double_pinyin}   # 自然码双拼（默认）
+    - {schema: rime_frost}                 # 白霜拼音·全拼

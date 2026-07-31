@@ -1,0 +1,6 @@
+# 白霜自然码双拼 - 个人定制
+# 通讯录词库通过 rime_frost.dict.yaml 的 import_tables 挂载（custom/contacts）
+# 中文波浪号已在 default.yaml 的标点 half_shape 段直接改为 '~' : '～'
+patch:
+  # 自定义短语改用 custom/custom_phrase.txt
+  "custom_phrase/user_dict": custom/custom_phrase

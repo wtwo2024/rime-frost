@@ -17,7 +17,6 @@ sync/
 *.userdb/
 installation.yaml
 user.yaml
-*.custom.yaml
 *.custom.dict.yaml
 !others/**/*.custom.yaml
 
