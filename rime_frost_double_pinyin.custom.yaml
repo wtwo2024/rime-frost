@@ -4,3 +4,6 @@
 patch:
   # 自定义短语改用 custom/custom_phrase.txt
   "custom_phrase/user_dict": custom/custom_phrase
+  # 永久屏蔽生僻字 𠮾（已从 cn_dicts/GB18030-2022.dict.yaml 删除；此处双保险，防 userdb 记忆与上游 pull 还原）
+  "translator/exclude_words":
+    - 𠮾
