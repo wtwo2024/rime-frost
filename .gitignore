@@ -27,6 +27,9 @@ cn_dicts/temp.txt
 
 *private*
 
+# 个人私有配置（通讯录、自定义短语等，含隐私信息，不要提交）
+/custom/
+
 rime_console
 rime_deployer
 rime_patch

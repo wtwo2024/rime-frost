@@ -13,6 +13,7 @@ import_tables:
   # - cn_dicts/tencent  # 腾讯词向量（大词库，部署时间较长）
   - cn_dicts/others   # 一些杂项
   - cn_dicts/corrections # 错音错字提示
+  - custom/contacts      # 个人通讯录（人名）
 
   # 细胞词库
   - cn_dicts_cell/medication
