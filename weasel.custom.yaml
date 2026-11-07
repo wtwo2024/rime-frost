@@ -5,10 +5,31 @@ customization:
   modified_time: "Fri Jul 31 12:55:17 2026"
   rime_version: 1.13.1
 patch:
+  "style/display_tray_icon": true
   "style/color_scheme": google
   "style/horizontal": true
+  # 全局关闭行内预编辑，拼音显示在独立候选框中，解决浏览器内嵌黄色底色与字符重复带出问题
+  "style/inline_preedit": false
   # 聚焦开始菜单搜索框时，自动切换为英文状态
   "app_options/SearchHost.exe/ascii_mode": true   # Windows 11 开始菜单搜索
   "app_options/SearchUI.exe/ascii_mode": true     # Windows 10 开始菜单搜索（兼容）
   # 聚焦 Everything 搜索栏时，自动切换为英文状态
   "app_options/Everything.exe/ascii_mode": true   # Everything 搜索工具
+  # 聚焦终端相关程序时，默认英文输入
+  "app_options/WindowsTerminal.exe/ascii_mode": true          # Windows Terminal
+  "app_options/WindowsTerminalPreview.exe/ascii_mode": true   # Windows Terminal Preview
+  "app_options/cmd.exe/ascii_mode": true                      # 命令提示符 (CMD)
+  "app_options/powershell.exe/ascii_mode": true               # Windows PowerShell
+  "app_options/pwsh.exe/ascii_mode": true                     # PowerShell 7+ (Core)
+  "app_options/conhost.exe/ascii_mode": true                  # Windows 控制台宿主
+  "app_options/OpenConsole.exe/ascii_mode": true              # Windows Terminal 控制台宿主
+  "app_options/mintty.exe/ascii_mode": true                   # Git Bash (Mintty)
+  "app_options/bash.exe/ascii_mode": true                     # Git / WSL Bash
+  "app_options/wsl.exe/ascii_mode": true                      # Windows Subsystem for Linux (WSL)
+  "app_options/alacritty.exe/ascii_mode": true                # Alacritty 终端
+  "app_options/wezterm-gui.exe/ascii_mode": true              # WezTerm 终端
+  "app_options/hyper.exe/ascii_mode": true                    # Hyper 终端
+  "app_options/Tabby.exe/ascii_mode": true                    # Tabby 终端
+  "app_options/ConEmu64.exe/ascii_mode": true                 # ConEmu / Cmder (x64)
+  "app_options/ConEmu.exe/ascii_mode": true                   # ConEmu / Cmder (x86)
+
