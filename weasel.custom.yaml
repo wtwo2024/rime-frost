@@ -17,12 +17,17 @@ patch:
   "app_options/Everything.exe/ascii_mode": true   # Everything 搜索工具
   # 聚焦终端相关程序时，默认英文输入
   "app_options/WindowsTerminal.exe/ascii_mode": true          # Windows Terminal
+  "app_options/windowsterminal.exe/ascii_mode": true          # Windows Terminal (小写)
+  "app_options/wt.exe/ascii_mode": true                       # Windows Terminal (CLI)
   "app_options/WindowsTerminalPreview.exe/ascii_mode": true   # Windows Terminal Preview
+  "app_options/windowsterminalpreview.exe/ascii_mode": true   # Windows Terminal Preview (小写)
   "app_options/cmd.exe/ascii_mode": true                      # 命令提示符 (CMD)
   "app_options/powershell.exe/ascii_mode": true               # Windows PowerShell
+  "app_options/powershell_ise.exe/ascii_mode": true           # PowerShell ISE
   "app_options/pwsh.exe/ascii_mode": true                     # PowerShell 7+ (Core)
   "app_options/conhost.exe/ascii_mode": true                  # Windows 控制台宿主
   "app_options/OpenConsole.exe/ascii_mode": true              # Windows Terminal 控制台宿主
+  "app_options/openconsole.exe/ascii_mode": true              # Windows Terminal 控制台宿主 (小写)
   "app_options/mintty.exe/ascii_mode": true                   # Git Bash (Mintty)
   "app_options/bash.exe/ascii_mode": true                     # Git / WSL Bash
   "app_options/wsl.exe/ascii_mode": true                      # Windows Subsystem for Linux (WSL)
@@ -30,6 +35,9 @@ patch:
   "app_options/wezterm-gui.exe/ascii_mode": true              # WezTerm 终端
   "app_options/hyper.exe/ascii_mode": true                    # Hyper 终端
   "app_options/Tabby.exe/ascii_mode": true                    # Tabby 终端
+  "app_options/tabby.exe/ascii_mode": true                    # Tabby 终端 (小写)
   "app_options/ConEmu64.exe/ascii_mode": true                 # ConEmu / Cmder (x64)
+  "app_options/conemu64.exe/ascii_mode": true                 # ConEmu / Cmder (x64 小写)
   "app_options/ConEmu.exe/ascii_mode": true                   # ConEmu / Cmder (x86)
+  "app_options/conemu.exe/ascii_mode": true                   # ConEmu / Cmder (x86 小写)
 
